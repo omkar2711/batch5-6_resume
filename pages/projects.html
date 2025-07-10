@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        section {
+            margin-top: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        div {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        h3 {    
+            margin-top: 0;
+        }
+        strong {
+            color: #007BFF;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        p {
+            margin: 0;
+        }
+        ul li {
+            margin-bottom: 5px;
+        }
+        ul li::before {
+            content: "•";
+            color: #007BFF;
+            margin-right: 5px;
+        }
+        ul li:last-child {
+            margin-bottom: 0;
+        }   
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Projects</h1>
+        <p>Here are some of the projects I have worked on:</p>
+    </header>
+   <section id="projects">
+        <h2>Projects</h2>
+        <div>
+            <h3><strong>Interview-AI</strong> | <a href="https://ai-interview-2-0.vercel.app/">Link</a> </h3>
+            <ul>
+                <li>Developed a web application that uses AI to simulate interview scenarios.</li>
+                <li>Implemented using React, Node.js, and TensorFlow.js.</li>
+                <li>Features include real-time feedback and performance analytics.</li>
+            </ul>
+        </div>
+        <div>
+            <h3><strong>WanderWeb</strong> | <a href="https://wanderer-social-sg34.vercel.app/">Link</a></h3>
+            <ul>
+                <li>Created a travel planning web application that suggests itineraries based on user preferences.</li>
+                <li>Built with Angular and Firebase for real-time data synchronization.</li>
+                <li>Integrated Google Maps API for location services.</li>
+            </ul>
+        </div>
+    </section>      
+</body>
+</html>

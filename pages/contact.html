@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #ContactSection {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        section {
+            margin-top: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 5px;
+        }
+        input, textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        #form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        #form h2 {
+            margin-top: 0;
+        }
+        #form p {
+            margin-bottom: 15px;
+        }
+        #form label {
+            font-weight: bold;
+        }
+        #form input, #form textarea {
+            width: 100%;
+            max-width: 400px;
+        }
+        #form input[type="text"],
+        #form input[type="email"] {
+            margin-bottom: 15px;
+        }
+        #form textarea {
+            resize: vertical;
+        }
+        #form button {
+            align-self: flex-start;
+        }
+        #ContactSection p {
+            margin: 5px 0;
+        }
+        #ContactSection p:first-child {
+            font-weight: bold;
+        }
+        #ContactSection p:nth-child(2) {
+            color: #555;
+        }
+        #ContactSection p:nth-child(3) {
+            color: #777;
+        }   
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <p>If you have any questions or would like to get in touch, feel free to reach out!</p>
+    </header>
+    <section id="ContactSection">
+        <p>Email:  abc@gmail.com</p>
+        <p>Phone: +91 1234567899</p>
+        <p>Location: Pune, Maharashtra</p>
+    </section>
+
+    <section id="form">
+        <h2>Contact Form</h2>
+        <p>Drop a message</p>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
